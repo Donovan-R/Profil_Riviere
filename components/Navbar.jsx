@@ -25,7 +25,7 @@ const Navbar = () => {
           <div className='nav-header'>
             <img
               className='logo'
-              src='../src/assets/toon_riviere.jpeg'
+              src='../assets/toon_riviere.jpeg'
               alt='photoDonovanRivière'
             />
             <button className='nav-toggle' onClick={() => setIsOpen(!isOpen)}>

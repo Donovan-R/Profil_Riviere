@@ -43,7 +43,7 @@ export const social = [
   },
   {
     id: 3,
-    url: './src/assets/CV_Donovan_rivière.pdf',
+    url: '../../assets/CV_Donovan_rivière.pdf',
     icon: <FaFilePdf />,
   },
 ];

@@ -15,7 +15,7 @@ const Projets = () => {
               target='_blank'
             >
               <img
-                src='./src/assets/siteADJDC.png'
+                src='../../assets/siteADJDC.png'
                 alt="page d'accueil du site Autour des jardins de chéreng"
               />
             </a>
@@ -24,20 +24,20 @@ const Projets = () => {
             <h4>changement de profil</h4>
             <p>Projet front utilisant l'API randomUser</p>
             <a href='https://persons-profiles.netlify.app/' target='_blank'>
-              <img src='./src/assets/profiles.png' alt='profils de personnes' />
+              <img src='../../assets/profiles.png' alt='profils de personnes' />
             </a>
             <a href='https://persons-profiles.netlify.app/' target='_blank'>
-              <img src='./src/assets/profil2.png' alt='profils de personnes' />
+              <img src='../../assets/profil2.png' alt='profils de personnes' />
             </a>
           </article>{' '}
           <article className='projetCard'>
             <h4>liste de courses</h4>
             <p>Exercice front type todo</p>
             <a href='https://liste-courses.netlify.app/' target='_blank'>
-              <img src='./src/assets/listeCourses.png' alt='liste de courses' />
+              <img src='../../assets/listeCourses.png' alt='liste de courses' />
             </a>
             <a href='https://liste-courses.netlify.app/' target='_blank'>
-              <img src='./src/assets/liste2.png' alt='liste de courses' />
+              <img src='../../assets/liste2.png' alt='liste de courses' />
             </a>
           </article>{' '}
           <article className='projetCard'>
@@ -46,7 +46,7 @@ const Projets = () => {
               Exercice front pour afficher un menu filtrable. Page responsive.{' '}
             </p>
             <a href='https://menu-diner.netlify.app/' target='_blank'>
-              <img src='./src/assets/menu.png' alt='menu' />
+              <img src='../../assets/menu.png' alt='menu' />
             </a>
           </article>{' '}
         </div>
