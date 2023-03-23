@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaFilePdf } from 'react-icons/fa';
+import cv from '../assets/CV_Donovan_rivière.pdf';
 
 export const links = [
   {
@@ -43,7 +44,7 @@ export const social = [
   },
   {
     id: 3,
-    url: '../../assets/CV_Donovan_rivière.pdf',
+    url: { cv },
     icon: <FaFilePdf />,
   },
 ];
