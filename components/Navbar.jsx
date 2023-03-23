@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { social, links } from '../src/data';
 import { FaBars } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
-import toon from '../assets/toon_riviere.jpeg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +23,11 @@ const Navbar = () => {
       <nav>
         <div className='nav-center'>
           <div className='nav-header'>
-            <img className='logo' src={toon} alt='photoDonovanRivière' />
+            <img
+              className='logo'
+              src='https://res.cloudinary.com/dlovq0hsk/image/upload/v1679577152/profil/toon_riviere_mgdooi.jpg'
+              alt='photoDonovanRivière'
+            />
             <button className='nav-toggle' onClick={() => setIsOpen(!isOpen)}>
               <FaBars />
             </button>
