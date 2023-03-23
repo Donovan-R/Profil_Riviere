@@ -21,7 +21,7 @@ const Formation = () => {
                 alt='logo'
               />
               <h4>Septembre 2023</h4>
-              <p>alternance concepteur développeur d'application</p>
+              <p>alternance concepteur développeur d'applications</p>
             </div>
             <div className='marqueeCard'>
               <img
