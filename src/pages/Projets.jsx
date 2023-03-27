@@ -53,7 +53,7 @@ const Projets = () => {
             </a>
           </article>{' '}
           <article className='projetCard'>
-            <h4>liste de courses</h4>
+            <h4>Menu</h4>
             <p>
               Exercice front pour afficher un menu filtrable. Page responsive.{' '}
             </p>
