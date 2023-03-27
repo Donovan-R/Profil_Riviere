@@ -6,7 +6,7 @@ const Projets = () => {
     <>
       <section className='section'>
         <h2>Projets</h2>
-        <div className='projetsSection'>
+        <div className='projetsSection section'>
           <article className='projetCard'>
             <h4>Site Autour des jardins de Chéreng</h4>
             <p>Projet fullstack: React, NodeJS, PostgreSQL</p>
