@@ -299,7 +299,7 @@ nav {
 
 @media screen and (min-width: 800px) {
   .homeSection {
-    height: calc(100vh - 148px);
+    height: calc(100dvh - 148px);
   }
   .homeSection h1 {
     font-size: 3rem;
