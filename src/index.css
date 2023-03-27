@@ -289,9 +289,20 @@ nav {
   height: calc(100vh - 200px);
 }
 
+.homeSection h1 {
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #5ff6ff, 1px 2px 1px #008aff, 1px 3px 1px #008aff,
+    -1px 3px 2px #008aff, -1px -1px 1px #0064b8, 2px -1px 2px #0064b8,
+    1px 7px 4px rgba(0, 9, 35, 0.4), 1px 9px 10px rgba(0, 64, 255, 0.2),
+    1px 9px 35px rgba(0, 64, 255, 0.2), 1px 9px 60px rgba(0, 64, 255, 0.4);
+}
+
 @media screen and (min-width: 800px) {
   .homeSection {
     height: calc(100vh - 148px);
+  }
+  .homeSection h1 {
+    font-size: 3rem;
   }
 }
 
