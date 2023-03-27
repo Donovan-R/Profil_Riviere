@@ -286,7 +286,6 @@ nav {
   inset: 0;
   display: grid;
   place-items: center;
-  min-height: calc(100dvh - 165px);
 }
 
 .homeSection h1 {
@@ -297,8 +296,12 @@ nav {
     1px 9px 35px rgba(0, 64, 255, 0.2), 1px 9px 60px rgba(0, 64, 255, 0.4);
 }
 
+.section {
+  min-height: calc(100dvh - 165px);
+}
+
 @media screen and (min-width: 800px) {
-  .homeSection {
+  .section {
     min-height: calc(100dvh - 148px);
   }
   .homeSection h1 {
@@ -312,7 +315,6 @@ nav {
 
 /*projets */
 .projetsSection {
-  height: calc(100vh - 148px);
   display: grid;
   place-items: center;
 }
@@ -429,7 +431,6 @@ nav {
 /* expériences */
 
 .expSection {
-  height: calc(100vh - 180px);
   display: grid;
   align-items: center;
 }
