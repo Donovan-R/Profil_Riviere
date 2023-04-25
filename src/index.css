@@ -126,9 +126,7 @@ p {
 .section {
   min-height: calc(100dvh - 165px);
   background: linear-gradient(30deg, #010407 0%, #13796c 60%, #010e0a 70%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+
   text-align: center;
 }
 /*
