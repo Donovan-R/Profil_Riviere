@@ -59,6 +59,7 @@ Global Styles
 }
 
 html {
+  min-height: 100dvh;
   background: linear-gradient(30deg, #010407 0%, #13796c 60%, #010e0a 70%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -283,6 +284,7 @@ nav {
 /* Home section */
 
 .homeSection {
+  min-height: calc(100dvh - 148px);
   inset: 0;
   display: grid;
   place-items: center;
@@ -290,7 +292,7 @@ nav {
 
 .homeSection h1 {
   font-size: 2rem;
-  text-shadow: 1px 1px 1px #5ff6ff, 1px 2px 1px #008aff, 1px 3px 1px #008aff,
+  text-shadow: 1px 1px 1px #0cf1fd, 1px 2px 1px #008aff, 1px 3px 1px #008aff,
     -1px 3px 2px #008aff, -1px -1px 1px #0064b8, 2px -1px 2px #0064b8,
     1px 7px 4px rgba(0, 9, 35, 0.4), 1px 9px 10px rgba(0, 64, 255, 0.2),
     1px 9px 35px rgba(0, 64, 255, 0.2), 1px 9px 60px rgba(0, 64, 255, 0.4);
@@ -315,6 +317,7 @@ nav {
 
 /*projets */
 .projetsSection {
+  min-height: calc(100dvh - 165px);
   display: grid;
   place-items: center;
 }
@@ -347,6 +350,7 @@ nav {
 }
 
 .formationSection {
+  min-height: calc(100dvh - 165px);
   width: 100%;
   padding: 0;
   margin: auto;
