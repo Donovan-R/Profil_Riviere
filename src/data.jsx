@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaFilePdf } from 'react-icons/fa';
+const cv = <img src='https://img.icons8.com/glyph-neue/64/null/resume.png' />;
 
 export const links = [
   {
@@ -44,6 +45,6 @@ export const social = [
   {
     id: 3,
     url: 'https://res.cloudinary.com/dlovq0hsk/image/upload/v1682421937/profil/CV_alternance_Donovan_rivi%C3%A8re_twx9pg.pdf',
-    icon: <FaFilePdf />,
+    icon: 'CV',
   },
 ];
