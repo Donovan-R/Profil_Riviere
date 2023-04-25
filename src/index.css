@@ -125,8 +125,7 @@ p {
 /* section */
 .section {
   min-height: calc(100dvh - 165px);
-  background: linear-gradient(30deg, #010407 0%, #13796c 60%, #010e0a 70%);
-
+  background: linear-gradient(30deg, #02264a 0%, #13796c 60%, #010e0a 80%);
   text-align: center;
 }
 /*
