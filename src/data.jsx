@@ -43,7 +43,7 @@ export const social = [
   },
   {
     id: 3,
-    url: 'https://res.cloudinary.com/dlovq0hsk/image/upload/v1679579242/profil/CV_alternance_Donovan_rivi%C3%A8re_ciuzdd.pdf',
+    url: 'https://res.cloudinary.com/dlovq0hsk/image/upload/v1682421937/profil/CV_alternance_Donovan_rivi%C3%A8re_twx9pg.pdf',
     icon: <FaFilePdf />,
   },
 ];
