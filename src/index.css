@@ -124,7 +124,7 @@ p {
 
 /* section */
 .section {
-  min-height: calc(100dvh - 155px);
+  min-height: calc(100dvh - 155.5px);
   background: linear-gradient(30deg, #02264a 0%, #13796c 60%, #010e0a 80%);
   text-align: center;
 }
