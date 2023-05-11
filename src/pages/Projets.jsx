@@ -4,9 +4,9 @@ import Footer from '../../components/Footer';
 const Projets = () => {
   return (
     <>
-      <section className='section'>
+      <section className='projetsSection section'>
         <h2>Projets</h2>
-        <div className='projetsSection section'>
+        <div className='cardsSection'>
           <article className='projetCard'>
             <h4>Site Autour des jardins de Chéreng</h4>
             <p>Projet fullstack: React, NodeJS, PostgreSQL</p>

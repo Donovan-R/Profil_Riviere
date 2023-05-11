@@ -299,7 +299,7 @@ nav {
 }
 
 /*projets */
-.projetsSection {
+.cardsSection {
   display: grid;
   place-items: center;
 }
@@ -322,7 +322,7 @@ nav {
 }
 
 @media screen and (min-width: 600px) {
-  .projetsSection {
+  .cardsSection {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
 
