@@ -11,7 +11,7 @@ const Projets = () => {
             <h4>Site Autour des jardins de Chéreng</h4>
             <p>Projet fullstack: React, NodeJS, PostgreSQL</p>
             <a
-              href='https://autour-des-jardins-de-chereng.netlify.app/'
+              href='https://autourdesjardinsdechereng.netlify.app/'
               target='_blank'
             >
               <img
