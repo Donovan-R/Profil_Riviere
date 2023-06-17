@@ -300,6 +300,8 @@ nav {
 
 /*projets */
 .cardsSection {
+  width: 80%;
+  margin: 0 auto;
   display: grid;
   place-items: center;
 }
@@ -324,6 +326,8 @@ nav {
 @media screen and (min-width: 600px) {
   .cardsSection {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    width: 75%;
+  
   }
 
   .projetCard {
