@@ -176,9 +176,14 @@ nav {
   padding: 0.5rem 1rem;
   transition: var(--transition);
 }
+
+a.active {
+  border-bottom: solid 2px var(--clr-primary-5);
+}
+
 .links a:hover {
   background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-1);
   padding-left: 1.5rem;
 }
 .social-icons {
@@ -327,7 +332,6 @@ nav {
   .cardsSection {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     width: 75%;
-  
   }
 
   .projetCard {
