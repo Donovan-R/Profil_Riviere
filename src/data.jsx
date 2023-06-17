@@ -44,7 +44,7 @@ export const social = [
   },
   {
     id: 3,
-    url: 'https://res.cloudinary.com/dlovq0hsk/image/upload/v1682421937/profil/CV_alternance_Donovan_rivi%C3%A8re_twx9pg.pdf',
+    url: 'https://res.cloudinary.com/dlovq0hsk/image/upload/v1686996299/profil/CV_2023-06-17_Donovan_rivi%C3%A8re_snxxcm.pdf',
     icon: 'CV',
   },
 ];

@@ -64,6 +64,23 @@ const Projets = () => {
               />
             </a>
           </article>{' '}
+          <article className='projetCard'>
+            <h4>Générateur aléatoire de cocktails</h4>
+            <p>Projet front avec Vuejs</p>
+            <a
+              href='https://cocktails-from-donovan-to-vade.netlify.app/'
+              target='_blank'
+            >
+              <img
+                src='https://res.cloudinary.com/dlovq0hsk/image/upload/v1686996560/profil/cocktailsRandom_qv4f2k.png'
+                alt="page d'accueil du générateur de cocktails"
+              />
+              <img
+                src='https://res.cloudinary.com/dlovq0hsk/image/upload/v1686996666/profil/singleCocktail_xryfxw.png'
+                alt='page single cocktail'
+              />
+            </a>
+          </article>{' '}
         </div>
       </section>
       <Footer />
