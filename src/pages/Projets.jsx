@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer';
 
+
 const Projets = () => {
   return (
     <>
@@ -81,6 +82,19 @@ const Projets = () => {
               />
             </a>
           </article>{' '}
+          <article className='projetCard'>
+            <h4>Les langues des pays</h4>
+            <p>Projet avec pagination et recherche de pays par langue en React</p>
+            <a
+              href='https://countries-languages.netlify.app/'
+              target='_blank'
+            >
+              <img
+                src='https://res.cloudinary.com/dlovq0hsk/image/upload/v1689437931/profil/countries.png'
+                alt="page de recherche"
+              />
+            </a>
+          </article>
         </div>
       </section>
       <Footer />
