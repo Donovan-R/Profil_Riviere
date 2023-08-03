@@ -439,5 +439,9 @@ a.active {
 }
 
 .expCard ul {
+  width: auto;
   color: var(--clr-primary-6);
+  /* list-style: circle; */
+  text-align: center;
+  padding: 1rem 3rem;
 }
