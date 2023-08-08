@@ -416,29 +416,32 @@ a.active {
 
 .expSection {
   height: calc(100vh - 180px);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 
 .mySwiper {
   width: auto;
   margin: 0 1rem;
-  height: 60%;
-  padding: 1rem;
+  height: 75%;
+  padding: 0.5rem;
   background-color: rgba(0, 15, 15, 0.3);
 }
 
 .expTitle {
   color: aqua;
   height: 30%;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
+  line-height: 1.5rem;
 }
 
 .expCard {
   height: 100%;
+}
+
+.expDetails {
+  display: grid;
+  place-items: center;
 }
 
 .expCard ul {
@@ -446,15 +449,36 @@ a.active {
   color: var(--clr-primary-6);
   list-style: circle;
   text-align: left;
-  padding: 0 3rem;
+  padding: 0 1rem 0 1.5rem;
+  transform: var(--transition);
 }
 .expCard li {
   padding: 10px;
 }
 
+.expDate {
+  font-size: large;
+  border-bottom: solid 2px aqua;
+}
+
 @media screen and (min-width: 700px) {
   .mySwiper {
     width: 75%;
+  }
+
+  .expCard ul {
+    width: 80%;
+    padding: 0 3rem;
+    font-size: 1.1rem;
+  }
+
+  .expTitle {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  .expDate {
+    font-size: 1.5rem;
   }
 }
 
@@ -462,4 +486,15 @@ a.active {
   .mySwiper {
     width: 70%;
   }
+  .expCard ul {
+    width: 70%;
+    font-size: 1.3rem;
+  }
 }
+
+/* @media screen and (max-height: 915px) {
+  .expSection {
+    font-size: 1rem;
+    background-color: #008aff;
+  }
+} */
