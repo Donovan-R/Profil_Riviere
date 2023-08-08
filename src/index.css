@@ -85,6 +85,7 @@ h1 {
   font-size: 3rem;
 }
 h2 {
+  padding-top: 1rem;
   font-size: 2rem;
 }
 h3 {
@@ -491,10 +492,3 @@ a.active {
     font-size: 1.3rem;
   }
 }
-
-/* @media screen and (max-height: 915px) {
-  .expSection {
-    font-size: 1rem;
-    background-color: #008aff;
-  }
-} */
