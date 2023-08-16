@@ -285,6 +285,17 @@ a.active {
     1px 9px 35px rgba(0, 64, 255, 0.2), 1px 9px 60px rgba(0, 64, 255, 0.4);
 }
 
+.myNameHidden {
+  position: absolute;
+  left: -999px;
+  transition: all 2s ease-in-out;
+}
+
+.myNameRevealed {
+  position: relative;
+  left: 0;
+}
+
 @media screen and (min-width: 800px) {
   .section {
     min-height: calc(100dvh - 112px);
@@ -458,8 +469,8 @@ a.active {
 }
 
 .expDate {
-  font-size: large;
   border-bottom: solid 2px aqua;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 700px) {
