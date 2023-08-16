@@ -42,13 +42,13 @@ const Presentation = () => {
               onInit={(typewriter) => {
                 typewriter
                   .pauseFor(2000)
-                  .typeString("Sérieux")
+                  .typeString(`<span style="color: magenta";>sérieux</span>`)
                   .pauseFor(1500)
                   .deleteChars(10)
-                  .typeString("motivé")
+                  .typeString(`<span style="color: indigo;">motivé</span>`)
                   .pauseFor(1500)
                   .deleteChars(10)
-                  .typeString("passionné")
+                  .typeString(`<span style="color: navy;">curieux</span>`)
                   .start();
               }}
             />
