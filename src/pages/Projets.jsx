@@ -54,9 +54,7 @@ const Projets = () => {
           </article>{" "}
           <article className="projetCard">
             <h4>Menu</h4>
-            <p>
-              Exercice front pour afficher un menu filtrable. Page responsive.{" "}
-            </p>
+            <p>Exercice front pour afficher un menu filtrable </p>
             <a href="https://menu-diner.netlify.app/" target="_blank">
               <img
                 src="https://res.cloudinary.com/dlovq0hsk/image/upload/v1679577234/profil/menu_wittc6.png"

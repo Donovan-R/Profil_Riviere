@@ -7,6 +7,12 @@ import Footer from "../../components/Footer";
 //   { name: "whatever", specificity: "want a job" },
 // ];
 
+// console.log(
+//   CandidatesList.filter((candidate) =>
+//     candidate.specificity === "the best guy for the job" ? candidate.name : ""
+//   )
+// );
+
 // function lookingForTheBestWorkStudy() {
 //   return CandidatesList.filter(
 //     (candidate) => candidate.specificity == "the best guy for the job"
