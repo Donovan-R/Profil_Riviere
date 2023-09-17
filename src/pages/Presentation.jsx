@@ -1,6 +1,6 @@
-import React from 'react';
-import Typewriter from 'typewriter-effect';
-import Footer from '../../components/Footer';
+import React from "react";
+import Typewriter from "typewriter-effect";
+import Footer from "../../components/Footer";
 
 // const CandidatesList = [
 //   { name: "Donovan Rivière", specificity: "the best guy for the job" },
@@ -25,39 +25,48 @@ import Footer from '../../components/Footer';
 
 const Presentation = () => {
   function revealMyName() {
-    const name = document.querySelector('.myNameHidden');
-    name.classList.add('myNameRevealed');
+    const name = document.querySelector(".myNameHidden");
+    name.classList.add("myNameRevealed");
   }
 
   setTimeout(() => {
     revealMyName();
-  }, '200');
+  }, "200");
 
   return (
     <>
-      <section className='homeSection section'>
+      <section className="homeSection section">
         <div>
           <h1>
             Bonjour, je suis
             <br />
-            <span className='myNameHidden'>Donovan Rivière</span>
+            <span className="myNameHidden">Donovan Rivière</span>
             <br />
             développeur web/ web mobile
             <br />
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .pauseFor(2000)
-                  .typeString(`<span style="color: magenta";>sérieux</span>`)
-                  .pauseFor(1500)
-                  .deleteChars(7)
-                  .typeString(`<span style="color: indigo;">motivé</span>`)
-                  .pauseFor(1500)
-                  .deleteChars(6)
-                  .typeString(`<span style="color: navy;">curieux</span>`)
-                  .start();
+            <span
+              style={{
+                display: "flex",
+                justifyContent: "center",
               }}
-            />
+            >
+              ►
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter
+                    .pauseFor(2000)
+                    .typeString(`<span style="color: magenta";>sérieux</span>`)
+                    .pauseFor(1500)
+                    .deleteChars(7)
+                    .typeString(`<span style="color: indigo;">motivé</span>`)
+                    .pauseFor(1500)
+                    .deleteChars(6)
+                    .typeString(`<span style="color: navy;">curieux</span>`)
+                    .start();
+                }}
+              />
+              ◄
+            </span>
           </h1>
         </div>
       </section>
